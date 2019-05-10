@@ -41,7 +41,10 @@ dependencies {
     /* Glide */
     compileOnly "com.github.bumptech.glide:glide:${rootProject.ext.dependencies.glide_version}"
 
-    api "com.github.Lorry0822.DevCommon:lib_base_android_databinding:$lib_version"
+    api "com.github.Lorry0822.DevCommon:lib_base:$lib_version"
+    api "com.github.Lorry0822.DevCommon:lib_base_android:$lib_version"
     api "com.github.Lorry0822.DevCommon:lib_base_android_ui:$lib_version"
     api "com.github.Lorry0822.DevCommon:lib_base_android_widget:$lib_version"
+    api "com.github.Lorry0822.DevCommon:lib_base_android_adapter:$lib_version"
+    api "com.github.Lorry0822.DevCommon:lib_base_android_databinding:$lib_version"
 }
